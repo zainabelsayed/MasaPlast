@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="public/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="public/node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="public/css/styles.css">
+    <link rel="stylesheet" href="public/css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Masa Plast</title>
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+            
+            <a href="#" class="navbar-brand mr-auto"><img src="public/images/masaa.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+                
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="./public/index.html" class="nav-link"> Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./about us.html" id="navbardrop" data-toggle="dropdown">
+                            Company
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item " href="./location.html">Our Location</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./management.html">Management</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./about us.html">About Us</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./our vision.html">Our Vision, mission & commitments</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Overview</a>
+                        </div>
+                        
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./business activities.html" data-toggle="dropdown">
+                            Services
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item " href="./business activities.html">Business activities</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./we sell.html">We sell & purchase</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./enviromental health.html">Environmental Health Safety & Quality</a>
+                        </div>
+                    </li>                
+                    <li class="nav-item"><a href="./plastic knowlege.html" class="nav-link"> Plastic Knowlege</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active"> Contact Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> العربية</a></li>
+   
+                </ul>
+            </div>
+            
+            
+        </div>
+        
+    </nav>
+    
+    <header class="jumbotron">
+            <div class="row">
+                    <img class="img-fluid mx-auto d-block eximg" src="public/images/contact.jpg">
+                    <div class="effect"></div>
+                    <h2 class="about headColor">Contact US</h2>
+            </div>
+    </header>
+
+    <div class="container" data-aos="fade-down">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">Contact Us</li>
+            </ol>
+            <div class="col-12">
+               <h3>Contact Us</h3>
+               <hr>
+            </div>
+        </div>
+
+        
+        <div class="row row-content">
+           <div class="col-12">
+              <h3>Send us your Feedback</h3>
+           </div>
+            <div class="col-12 col-md-9">
+                <span class="msg">{{msg}}</span>
+                <form action="send" method="POST">
+                    <div class="form-group row">
+                      <label for="firstname" class="col-md-2 col-form-label">First Name</label> <div class="col-md-10">
+                          <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                      </div> 
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label> <div class="col-md-10">
+                          <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                      </div> 
+                    </div>
+                    <div class="form-group row">
+                      <label for="telnum" class="col-12 col-md-2 col-form-label">contact Tel.
+                      </label> 
+                      <div class="col-5 col-md-3">
+                          <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area Code">
+                      </div> 
+                      <div class="col-7 col-md-7">
+                          <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
+                      </div> 
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label> <div class="col-md-10">
+                          <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                      </div> 
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                            <label class="form-check-label" for="approve">
+                                <strong>May we contact you?</strong>
+                            </label>
+                        </div>
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label> 
+                        <div class="col-md-10">
+                          <textarea  class="form-control" id="message" name="message" rows="12"></textarea>
+                      </div> 
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" value="Email This Form" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                         
+                    </div>
+                </form>
+                
+            </div>
+
+             <div class="col-12 col-md">
+            </div>
+       </div>
+
+    </div>
+            
+                
+                
+            
+    
+    
+
+        <footer class="page-footer" data-aos="fade-up">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-5 col-sm-3">
+                    <h5>Our Address</h5>
+                    <address>
+                      The Company Administration and the Factory<br> are located at piece #9,
+                      district # 17<br> south of the third industrial zone<br> in NewBorg Elarab city Alexandria, Egypt.<br>
+                      <i class="fa fa-phone fa-lg"></i> : +201 009 990 741<br>
+                      <i class="fa fa-phone fa-lg"></i> : +201 110 774 969<br>
+                      <i class="fa fa-envelope fa-lg"></i> : <a class="links" href="mailto:masa.plast.sales@gmail.com">masa.plast.sales@gmail.com</a>
+                </address>
+                </div>   
+                <div class="col-4  offset-1  col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="links" href="./index.html">Home</a></li>
+                        <li><a class="links" href="./about us.html">Company</a></li>
+                        <li><a class="links" href="./business activities.html">Services</a></li>
+                        <li><a class="links" href="./plastic knowlege.html">Plastic Knowlege</a></li>
+                        <li><a class="links" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-4  offset-1  col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="links" href="./location.html">Our Location</a></li>
+                        <li><a class="links" href="./management.html">Management</a></li>
+                        <li><a class="links" href="./about us.html">About Us</a></li>
+                        <li><a class="links" href="./our vision.html">Our Vision, Mission & Commitments</a></li>
+                        <li><a class="links" href="#">Overview</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="links" href="./business activities.html">Business activities</a></li>
+                        <li><a class="links" href="./we sell.html">We sell & purchase</a></li>
+                        <li><a class="links" href="./enviromental health.html">Environmental Health Safety & Quality</a></li>
+                    </ul>
+                </div>
+                </div>
+           </div>
+        </div>
+        <div class="footer-copyright row justify-content-center">             
+            <div class="col-auto">            
+                © Copyright 2019 MASAPLAST For Plastic Industries
+            </div>
+        </div>
+           <div class="copyright row justify-content-center"></div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="public/node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="public/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="public/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script type="text/javascript" src="public/scripts/app.js"></script>
+    
+</body>
+</html>
