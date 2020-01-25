@@ -16,7 +16,7 @@ body{
 
 }
 .page-footer{
-	background-image: url('../../images/Go-Green.png');
+	background-image: url('../../public/images/Go-Green.png');
 	margin-top: 0px auto;
 	padding: 50px 0px 50px 0px;
 	color:black;
