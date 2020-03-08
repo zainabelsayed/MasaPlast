@@ -44,8 +44,8 @@ app.post('/send',(req,res)=>{
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: 'eng.zainab92@gmail.com', // generated ethereal user
-            pass: '2871992z' // generated ethereal password
+            user: '*******@gmail.com', // generated ethereal user
+            pass: '********' // generated ethereal password
         },
         tls:{
             rejectUnauthorized: false
@@ -55,7 +55,7 @@ app.post('/send',(req,res)=>{
     // send mail with defined transport object
     let mailOptions = {
         from: '"Masa Plast for Plastic Idustries" <eng.zainab92@gmail.com>', // sender address
-        to: 'masa.plast.sales@gmail.com', // list of receivers
+        to: '********@gmail.com', // list of receivers
         subject: 'Contact Info', // Subject line
         text: 'Hello world?', // plain text body
         html: output // html body
